@@ -1,0 +1,9 @@
+<div class="creation-field">
+  <button (click)="emitCloseEvent()">
+    <fa-icon [icon]="deleteIcon"></fa-icon>
+  </button>
+  <button (click)="emitConfirmEvent()">
+    <fa-icon [icon]="confirmIcon"></fa-icon>
+  </button>
+  <input placeholder="Введите текст заметки" type="text" [formControl]="title"/>
+</div>

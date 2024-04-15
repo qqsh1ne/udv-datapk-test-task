@@ -1,0 +1,22 @@
+@import "../../../colors";
+
+.creation-field {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 25px;
+
+  input {
+    border: 2px solid $base-input-color;
+    color: #000;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 4px;
+    width: 250px;
+
+    &::placeholder {
+      font-size: 14px;
+      color: $base-input-color;
+    }
+  }
+}

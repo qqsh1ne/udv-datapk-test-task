@@ -1,0 +1,34 @@
+@import "../colors";
+
+h1 {
+  font-weight: 700;
+  font-size: 46px;
+  margin: 30px 0;
+}
+
+button {
+  width: 160px;
+  height: 40px;
+  border: 2px solid $base-button-color;
+  color: $base-button-color;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 8px 12px;
+
+  &:disabled {
+    opacity: .4;
+    cursor: default;
+  }
+}
+
+.notes {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  margin-bottom: 15px;
+}
+
+.empty-message {
+  margin-bottom: 30px;
+}
